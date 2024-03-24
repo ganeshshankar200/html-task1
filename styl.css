@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.main {
+    padding: 20px;
+    background-color: rgb(16, 46, 36);
+    height: 10vh;
+    width: 100vw;
+    display: grid;
+    place-items: center;
+
+}
+.subclass1{
+    height: 90vh;
+    width: 100vw;
+    background-color: rgb(56, 58, 56);
+    display: grid
+    ;
+    grid-template-columns: 20vw 80vw;
+
+    
+
+}
+.heading{
+    
+    width: 70vw;
+    height: 15vh;
+    display: grid;
+    place-items: center;
+    color: white;
+    
+}
+.scrol{
+    padding: 20px;
+    height: 70vh;
+    width: 10vw;
+    border: 2px solid grey;
+    border-radius: 20px;
+    background-color: gray;
+    display: grid;
+     margin: 30px;
+}
+.search{
+    padding: 10px;
+    border: 3px solid gray;
+    height: 20px;
+    width: 50vw;
+    border-radius: 20px;
+    background-color: grey;
+    margin: 20px;
+    margin-left: 70px;
+    display: grid;
+    align-items: center;
+}
+.scrol2{
+    
+    display: grid;
+    grid-template-rows: 20vh 35vh 35vh;
+    
+
+}
+.threebox{
+    
+    display: grid;
+    grid-template-columns: 25vw 25vw 25vw;
+}
+.box1{
+    height: 150px;
+    width: 200px;
+    border: 3px solid gray;
+    background-color: gray;
+    margin: 20px;
+    margin-left: 20px;
+    border-radius: 20px;
+}
+.onebox{
+height: 130px;
+width: 700px;
+border: 3px solid gray;
+background-color: gray;
+margin: 30px;
+margin-left: 70px;
+padding: 10px;
+border-radius: 20px;
+}
